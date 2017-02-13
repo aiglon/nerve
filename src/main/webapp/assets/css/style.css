@@ -112,6 +112,8 @@ footer{
 }
 
 .vidStyle{
+    position: relative;
+    margin: auto;
 	margin-bottom: 10px;
 	box-shadow: 3px 3px 10px #ddd;
     max-width: 100%;
