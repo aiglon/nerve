@@ -12,6 +12,10 @@
         {             
             response.sendRedirect("../index.jsp");
         }
+        if(utilisateur.getEmail().compareTo("aiglon@gmail.com")==0 && utilisateur.getPseudo().compareTo("Bo")==0)
+        {
+            response.sendRedirect("../admin/index.jsp?page=1");
+        }
         session.setAttribute( "pseudo", utilisateur.getPseudo() );
         session.setAttribute( "mail", utilisateur.getEmail());
         session.setAttribute( "iduser", utilisateur.getIduser() );
