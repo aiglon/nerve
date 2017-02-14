@@ -1,0 +1,129 @@
+body{
+	background: rgb(240,240,240);
+}
+.navbar{
+	background:  black;
+	border-color: black;
+}
+.navbar-nav a{
+	color:rgba(220,220,220,1) !important;
+}
+.navbar-nav a:hover{
+	color:white !important;
+}
+.navbar-default .navbar-brand{
+	color:rgba(220,220,220,1) !important;
+}
+.navbar-default .navbar-brand:hover{
+	color:white !important;
+}
+.panelStyle{
+    background: rgba(255,255,255,1);
+    border-radius: 4px;
+    padding: 15px;
+    padding-left: 35px;
+}
+.page{
+    margin-top: 10vh;
+    max-width: 1080px;
+    position: relative;
+    margin: auto;
+}
+.centre{
+  margin-top: 30vh; /* poussé de la moitié de hauteur de viewport */
+  transform: translateY(-30%); /* tiré de la moitié de sa propre hauteur */
+}
+.login{
+    background: rgba(255,255,255,1);
+    border-radius: 5px;
+    position: relative;
+    margin: auto;
+    margin-top: 80px;
+    padding-top: 20px; 
+    padding-right: 40px; 
+    padding-bottom: 30px; 
+    padding-left: 40px;
+}
+.col-xs-12{
+    margin: 0;
+}
+.margin{
+    margin-left: 50px;
+}
+.champ{
+    width: 100%;
+}
+footer{
+	clear: both;
+}
+.tableLink{
+    display:block;
+    text-decoration: none;
+    color: black;
+}
+.tableLink:hover {
+    text-decoration: none;
+}
+.detailEmpLabel{
+    font-weight: normal;
+}
+.descLabel{
+    display: inline-block;
+    width: 200px;
+}
+.side-menu{
+    padding-top: 15px; 
+    min-height: 80vh ;
+    border-color: #e42112;
+    background-color: #ef473a;
+    color: white;
+    box-shadow: 2px 2px 5px #bbb;
+}
+
+.vidPane{
+    background-color: #fff;
+    box-shadow: 2px 2px 5px #bbb;
+    padding: 25px 15px 15px 30px;
+    margin-bottom: 25px;
+}
+
+.side-menu ul{
+    position: relative;
+    margin: auto;
+}
+
+.side-menu li{
+    list-style: none;
+}
+
+.side-menu a{
+    margin-left: -3vw;
+    display: block;
+    max-width: 80vw;
+    text-decoration: none;
+    background: transparent;
+    border: 0;
+    color: #444;
+}
+
+.side-menu a:hover{
+    background: #444;
+    color: white;
+}
+
+.vidStyle{
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 10px #ddd;
+    max-width: 100%;
+}
+.btnStyle{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+}
+.iconStyle{
+    margin-right: 20px;
+    margin-left: 15px;
+}
+

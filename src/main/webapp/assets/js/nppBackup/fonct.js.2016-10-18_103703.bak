@@ -1,0 +1,23 @@
+$(document).ready(function(){
+	$("#login").click(function(){
+		var stat=document.getElementById('statutContent').value;
+		$.ajax({
+			url : 'addPost.php',
+			type : 'POST',
+			data : 'statut=' + stat,
+			dataType : 'html',
+			success : function(valn, statut){
+				console.log(statut);
+				suppr("statutForm");
+				insertStatut(valn,"statutForm");
+				document.getElementById('comForm').setAttribute("style","display: block;");
+			},
+
+			error : function(valn, statut, erreur){
+				console.log(valn);
+				console.log(statut);
+				console.log(erreur);
+			},
+		});				   
+	});
+});
