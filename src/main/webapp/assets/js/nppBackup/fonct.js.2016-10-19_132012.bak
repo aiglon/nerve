@@ -1,0 +1,22 @@
+$(document).ready(function(){
+	$("#login").click(function(){
+		var usr=document.getElementById('usr').value;
+		var pass=document.getElementById('pass').value;
+		console.log(usr);
+		$.ajax({
+			url :'http://localhost/ITUBook/Login/verif',
+			type : 'POST',
+			data : {psd: usr, pwd: pass},
+			dataType : 'json',
+			success : function(valn, statut){
+				if(valn) document.location.href="http://localhost/";
+			},
+
+			error : function(valn, statut, erreur){
+				console.log(valn);
+				console.log(statut);
+				console.log(erreur);
+			},
+		});				   
+	});
+});
